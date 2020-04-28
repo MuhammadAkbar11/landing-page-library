@@ -6,214 +6,278 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- <script src="https://kit.fontawesome.com/de02adfe9b.js" crossorigin="anonymous"></script> -->
-
     <title>Perpustakaan SMK NEGERI SUMBERREJO</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <script src="./js/fontawesome.min.js"></script>
 </head>
 
 <body>
 
-    <section class="landing-page">
+    <!-- Just an image -->
+    <nav class="navbar navbar-light  ">
         <div class="container-fluid">
-            <div class="row pt-3  ">
-                <div class="col-sm-3 px-auto ">
-                    <img class="logo mx-auto ml-3" src="./img/logo.png" alt="">
-                </div>
-                <div class="col-sm-9 text-center px-0 ">
-                    <h1 class="text-uppercase font-weight-bold text-white mt-4   ">Sistem Informasi <br>
-                        Perpustakaan smk negeri
-                        sumberrejo</h1>
-                    <h5 class="text-white text-monospace">Jl Raya Kayulemah No. 184 3/10 Sumberrejo Bojonegoro</h5>
-                </div>
-            </div>
-
-            <div class="row mt-5 px-5">
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow border bg-costum">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 py-2 px-3">
-                                <img src="./svg/user-tie.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="  font-weight-bold mt-3 text-white">Master Anggota</h3>
-
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-12">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6">
+                        <a class="navbar-brand" href="#">
+                            <img height="60" src="./img/logo.png" alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-info border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/books.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-white">Transaksi Peminjamam</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-primary border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/print.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-white">Cetak Laporan Buku</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-orange border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/timer.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-dark ">Cetak Laporan Buku</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-dark border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/archive-drawer-fill.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-white ">Transaksi Pengembalian</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-success border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/bookmark-tabs.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-dark ">Catatan Laporan Pembalian Buku</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-teal border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/books-klarifikasi.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-dark ">Master Klarifikasi</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-warning border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-2">
-                                <img src="./svg/book-search.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-dark ">.....</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-purple border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-3 px-3">
-                                <img src="./svg/report.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h5 class="  font-weight-bold mt-3 text-white ">Cetak Laporan Peminjaman Anggota
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-secondary border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-3 px-3">
-                                <img src="./svg/blue-book.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-3 text-white ">Master Buku
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3 shadow bg-danger border shadow-lg ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4 p-4">
-                                <img src="./svg/times-circle.svg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body text-center">
-                                    <h3 class="  font-weight-bold mt-4 text-white ">Keluar
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-sm-6 text-right d-flex align-items-center justify-content-end">
+                        <h6 class=" text-wrap text-black ">
+                            Jl Raya Kayulemah No. 184 3/10, Sumberrejo Bojonegoro
+                        </h6>
                     </div>
                 </div>
             </div>
         </div>
 
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid pt-5 bg-white ">
+        <div class="container mt-5">
+            <div class="row px-4">
+                <div class="col-sm-4 d-flex justify-content-center ">
+                    <img src="./svg/undraw_book_lover_mkck.svg" class=" img-fluid" alt="">
+                </div>
+                <div class="col-sm-8 pl-3 ">
+
+                    <div class="col-11 px-0 ml-auto">
+                        <h1 class="text-capitalize display-3 text-primary mb-2">Sistem Informasi
+                        </h1>
+                        <h2 class=" text-secondary ">Perpustakaan <br></h2>
+                        <p class="text-uppercase text-wrap text-dark font-weight-light   ">
+                            <span class="font-weight-bold m-0 text-s-3 text-wrap text-primary-50 ">
+                                smk negeri Sumberrejo
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <section class="bg-white mt-5 main ">
+        <div class="container">
+            <div class="row px-4">
+
+                <div class="col-6 col-sm-4 ">
+                    <a class=" text-decoration-none " href="">
+                        <div class="card  mb-3 p-3 text-primary shadow">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="w-100 p-2 px-3">
+                                        <i class="fad fa-user-tie  fa-5x "></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                    <div class="card-body ">
+                                        <h5 class=" font-weight-bold  my-auto">Master Anggota</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a class=" text-decoration-none " href="">
+                        <div class="card  mb-3 p-3 text-primary shadow">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="w-100 p-2 px-3">
+                                        <i class="fad fa-cabinet-filing  fa-5x "></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                    <div class="card-body ">
+                                        <h5 class=" font-weight-bold  my-auto text-center">Transaksi Peminjaman</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a class=" text-decoration-none " href="">
+                        <div class="card  mb-3 p-3 text-primary shadow rounded">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="w-100 p-2 px-3">
+                                        <i class="fad fa-print  fa-5x "></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                    <div class="card-body ">
+                                        <h5 class=" font-weight-bold  my-auto text-center">Cetak Laporan Buku</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a class=" text-decoration-none " href="">
+                        <div class="card  mb-3 p-3 text-primary shadow rounded">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="w-100 p-2 px-3">
+                                        <i class="fad fa-layer-group  fa-5x "></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                    <div class="card-body ">
+                                        <h5 class=" font-weight-bold  my-auto text-center">Master Koleksi</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a class=" text-decoration-none card  mb-3 p-3 text-primary shadow rounded " href="">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-undo-alt  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h5 class=" font-weight-bold  my-auto text-center">Transaksi Pengembalian</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-clipboard  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h6 class=" font-weight-bold  my-auto text-center">Cetak Laporan Pengembalian Buku
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-books  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h5 class=" font-weight-bold  my-auto text-center">Master Klasifikasi </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-file-search  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h5 class=" font-weight-bold  my-auto text-center">Komputer Katalog </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-file-alt  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h6 class=" font-weight-bold  my-auto text-center">Cetak Laporan Peminjaman Anggota
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-book-alt  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h4 class=" font-weight-bold  my-auto text-center">Master Buku
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 ">
+                    <a href="" class="card text-decoration-none  mb-3 p-3 text-primary shadow rounded">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="w-100 p-2 px-3">
+                                    <i class="fad fa-power-off  fa-5x "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <div class="card-body ">
+                                    <h4 class=" font-weight-bold  my-auto text-center">Master Keluar
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
 
+            </div>
+
+        </div>
+
+        <div class="container-fluid mt-2
+        ">
+            <div class="row">
+                <div class="offset-7 col-md-5 ">
+                    <img src="./svg/undraw_booking_33fn.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+
+        </div>
     </section>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
+
+
+    <!-- Optional JavaScript -->
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

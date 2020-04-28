@@ -19,6 +19,10 @@
   "homepage": "https://github.com/MuhammadAkbar11/landing-page-library#readme",
   "devDependencies": {
     "boostrap": "^2.0.0",
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0"
+  },
+  "dependencies": {
+    "popper.js": "^1.16.1"
   }
 }
