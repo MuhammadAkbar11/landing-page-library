@@ -1,0 +1,24 @@
+{
+  "name": "TugasIMK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadAkbar11/landing-page-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadAkbar11/landing-page-library/issues"
+  },
+  "homepage": "https://github.com/MuhammadAkbar11/landing-page-library#readme",
+  "devDependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1"
+  }
+}
