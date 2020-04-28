@@ -13,7 +13,7 @@
 			rgba(0, 0, 0, 0.8631827731092436) 43%,
 			rgba(1, 1, 4, 0.8827906162464986) 97%
 		),
-		url('./bg.jpg') center top;
+		url('../img/bg.jpg') center top;
 	/* background: linear-gradient(
 			to right,
 			rgba(230, 231, 233, 0.9),
